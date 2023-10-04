@@ -5,7 +5,7 @@ lire(n)
 si n<=0:alor
 Ecrire("L'entier doit être positif et non nul.")
 sinon
-Ecrire("Les diviseurs de", entier, "sont :")
+Ecrire("Les diviseurs de", n, "sont :")
 fin si
 pour i<--1 a n pas 1 fair
 si n mod i==0:
