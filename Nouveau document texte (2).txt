@@ -1,0 +1,12 @@
+algotithme-ex27
+variables n,i:entier
+ecrire("svp dones une entier positif non nui:")*
+lire(n)
+si n<=0:alor
+Ecrire("L'entier doit être positif et non nul.")
+sinon
+Ecrire("Les diviseurs de", entier, "sont :")
+fin si
+pour i<--1 a n pas 1 fair
+si n mod i==0:
+Ecrire(i)
